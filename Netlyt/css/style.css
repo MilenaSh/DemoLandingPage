@@ -189,7 +189,7 @@ p {
 }
 
 .nav ul li:last-child {
-    margin: 0 0 0 23px;
+    /* margin: 0 0 0 23px; */
 }
 
 .nav ul li a {
@@ -373,9 +373,15 @@ a.learn_more2:hover {
 /* Infographic
 -------------------------------- */
 
+#infographic {
+    /* height: 660px; */
+    display: block;
+}
+
 #infographic img {
     display: block;
     margin: auto;
+    width: 50%;
 }
 
 
@@ -715,9 +721,12 @@ img {
 .c-logo-part {
     background: url(../img/trusted-by.png) left top;
     background-repeat: repeat-x;
-    padding: 60px 0;
+    padding: 80px 0;
     margin-top: 60px;
     filter: alpha(opacity=60);
+    background-size: cover;
+    background-attachment: fixed !important;
+    background-repeat: repeat-y !important;
 }
 
 .c-logo-part ul {

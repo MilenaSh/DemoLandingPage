@@ -210,6 +210,20 @@ p {
 }
 
 
+/* Carousel
+---------------------------------*/
+
+#myCarousel .carousel-inner {
+    max-height: 75vh;
+}
+
+#myCarousel .carousel-inner .item img {
+    max-height: 100% !important;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
 /* Top_content
 ---------------------------------*/
 
@@ -1171,8 +1185,10 @@ img {
     font-family: 'Dosis', sans-serif;
     width: 175px;
     height: 50px;
+    margin: auto;
+    display: block;
     letter-spacing: 0px;
-    background: #7cc576;
+    background: #4493a6;
     border-radius: 3px;
     color: #ffffff;
     font-size: 16px;
@@ -1329,7 +1345,7 @@ img {
 
 #filters ul li a:hover h5,
 #filters ul li a.active h5 {
-    background: #9EBCDA;
+    background: #4493a6;
     color: #fff;
     text-decoration: none;
 }

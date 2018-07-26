@@ -25,3 +25,13 @@ function resizeText() {
     var newFontSizeTitle = Math.floor(fontsizetitle * percentage);
     $(".divclass").css("font-size", newFontSizeTitle)
 }
+
+
+$(document).ready(function() {
+    $('.display-content').on('click', function() {
+        $('#infographic').toggleClass('fullGraph');
+        $('.arrow-down').toggle();
+        $('.arrow-up').toggle();    
+    })
+
+})

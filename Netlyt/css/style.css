@@ -154,6 +154,10 @@ p {
     float: left;
 }
 
+.logo img {
+    width: 75%;
+}
+
 .res-nav_click {
     display: none;
 }
@@ -161,6 +165,10 @@ p {
 
 /* Nav Styles
 ---------------------------------*/
+
+.container.navigation-wrapper {
+    width: 80%;
+}
 
 .nav {
     float: right;
@@ -426,7 +434,7 @@ a.learn_more2:hover {
 }
 
 #infographic.fullGraph {
-    height: 1820px;
+    height: 1800px;
 }
 
 #infographic img {
@@ -652,7 +660,7 @@ a.contact_btn:hover {
 }
 
 img {
-    max-width: 75%;
+    max-width: 100%;
 }
 
 
@@ -793,7 +801,8 @@ img {
 ---------------------------------*/
 
 .c-logo-part {
-    background: url(../img/trusted-by.png) left top;
+    /* background: url(../img/trusted-by.png) left top; */
+    background: black;
     background-repeat: repeat-x;
     padding: 80px 0;
     margin-top: 60px;
@@ -898,6 +907,7 @@ img {
 .team-leader img {
     display: block;
     border-radius: 50%;
+    height: 270px;
 }
 
 .team-leader ul {

@@ -91,6 +91,16 @@ a:active {
     src: url('../fonts/dosis-bold.eot') format('embedded-opentype'), url('../fonts/dosis-bold.woff2') format('woff2'), url('../fonts/dosis-bold.woff') format('woff'), url('../fonts/dosis-bold.ttf') format('truetype'), url('../fonts/dosis-bold.svg#DosisBold') format('svg');
 }
 
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/raleway/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'RalewayBold';
+    src: url('../fonts/raleway/Raleway-Bold.ttf');
+}
+
 
 /* Primary Styles
 ---------------------------------*/
@@ -107,7 +117,7 @@ body {
 h2 {
     font-size: 38px;
     color: #053061;
-    font-family: 'Dosis';
+    font-family: 'Raleway';
     font-weight: 700;
     margin: 35px 0 25px 0;
     text-align: center;
@@ -115,7 +125,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     color: #222222;
     font-size: 16px;
@@ -204,7 +214,7 @@ p {
     display: block;
     font-size: 14px;
     color: #053061;
-    font-family: 'Dosis';
+    font-family: 'Raleway';
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
@@ -260,7 +270,6 @@ p {
 .top_cont_outer {
     background: #f9f9f9;
     position: relative;
-    margin: 0 10%;
 }
 
 .top_cont_inner {
@@ -285,7 +294,7 @@ p {
 }
 
 .top_left_cont {
-    padding: 55px 0;
+    padding: 110px 0;
 }
 
 .top_left_cont h3 {
@@ -299,11 +308,10 @@ p {
 
 .top_left_cont h2 {
     font-size: 40px;
-    color: beige;
-    text-shadow: rgba(0, 0, 0, 0.6) 0px 3px 3px;
+    color: #111111;
     line-height: 52px;
     margin: 0 0 26px 0;
-    font-family: 'Dosis';
+    font-family: 'Raleway';
     text-align: left;
     font-weight: 700;
 }
@@ -317,17 +325,17 @@ p {
 }
 
 a.learn_more2 {
-    font-family: 'Dosis';
+    font-family: 'Raleway';
     display: block;
     font-size: 16px;
     color: #ffffff;
-    background: #368ac7;
+    background: #49b5e7;
     width: 178px;
     height: 46px;
     line-height: 46px;
     border-radius: 3px;
     text-align: center;
-    font-family: ''Dosis'';
+    font-family: 'Raleway';
     text-transform: uppercase;
     font-weight: 600;
     transition: all 0.2s ease-in-out;
@@ -402,7 +410,7 @@ a.learn_more2:hover {
 }
 
 .service_block h3 {
-    font-family: 'Dosis';
+    font-family: 'Raleway';
     font-weight: 600;
     font-size: 18px;
     color: #111111;
@@ -542,7 +550,7 @@ a.contact_btn {
     font-size: 16px;
     color: #ffffff;
     border-radius: 3px;
-    font-family: 'Dosis';
+    font-family: 'Raleway';
     font-weight: 600;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -855,6 +863,10 @@ img {
     float: left;
 }
 
+.team-leader-box.single-line {
+    margin-top: 50px;
+}
+
 .team-leader-image:hover {
     border: 2px solid #E9E1F5;
 }
@@ -907,7 +919,7 @@ img {
 .team-leader img {
     display: block;
     border-radius: 50%;
-    height: 270px;
+    /* height: 270px; */
 }
 
 .team-leader ul {
@@ -1263,7 +1275,7 @@ img {
 }
 
 .input-btn {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 175px;
     height: 50px;
     margin: auto;
@@ -1436,7 +1448,7 @@ img {
 
 .section-title h2 {
     color: #053061;
-    font-family: DosisBold;
+    font-family: RalewayBold;
     font-size: 34px;
     font-weight: normal;
     letter-spacing: -1px;
@@ -1538,7 +1550,7 @@ img {
     color: #222222;
     text-transform: uppercase;
     margin-top: 25px;
-    font-family: DosisBold;
+    font-family: Raleway;
     opacity: 0;
     font-size: 18px;
     transition: all 0.2s ease 0s;

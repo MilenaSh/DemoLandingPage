@@ -23,6 +23,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /****Ipad Portrait 768 Container 750 ****/
+    /*Added*/
     body {
         font-size: 13px;
     }
@@ -133,6 +134,17 @@
 
 @media only screen and (max-width: 767px) {
     /****Mobile Landscape 480 Container 100% ****/
+    /*Added*/
+    .logo img {
+        width: 70%;
+    }
+    #infographic-wrapper {
+        display: none;
+    }
+    .display-content {
+        display: none;
+    }
+    /*****Added*/
     .client_profile_pic {
         float: none;
         width: 150px;
@@ -181,7 +193,7 @@
     .top_cont_inner {
         background-size: 90% auto;
         -webkit-background-size: 90% auto;
-        padding-bottom: 68%;
+        padding-bottom: 10%;
     }
     .top_cont_latest {
         background-size: 90% auto;

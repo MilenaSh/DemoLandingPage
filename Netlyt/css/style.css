@@ -805,8 +805,16 @@ img {
 }
 
 
-/* Sponsors
+/* Trusted by
 ---------------------------------*/
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container img.sm {
+    max-width: 150px;
+}
 
 .c-logo-part {
     /* background: url(../img/trusted-by.png) left top; */
@@ -863,8 +871,19 @@ img {
     float: left;
 }
 
+.team-leader-adviser {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .team-leader-box.single-line {
     margin-top: 50px;
+}
+
+.team-leader-box.single-line .team-leader {
+    max-width: 90%;
 }
 
 .team-leader-image:hover {
@@ -1938,4 +1957,39 @@ div.mc-image {
 .in-slide-content div.info-slide:hover p {
     display: inherit;
     padding: 0;
+}
+
+
+/*Case study*/
+
+#Portfolio .row {
+    padding: 5% 10%;
+}
+
+#Portfolio .row .col p {
+    margin-bottom: 20px;
+}
+
+.column-wrapper {
+    text-align: center;
+    font-size: 14px;
+}
+
+#Portfolio .row .col:hover {
+    font-weight: bold;
+}
+
+.column-wrapper {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.column-wrapper h4 {
+    font-size: 20px;
+    color: #053061;
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin: 35px 0 25px 0;
+    text-align: center;
+    text-transform: uppercase;
 }

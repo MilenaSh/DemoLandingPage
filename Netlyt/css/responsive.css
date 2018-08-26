@@ -138,9 +138,9 @@
     .logo img {
         width: 70%;
     }
-    #infographic-wrapper {
+    /* #infographic-wrapper {
         display: none;
-    }
+    } */
     .display-content {
         display: none;
     }
@@ -271,6 +271,9 @@
     }
     .team-leader-box:nth-of-type(3n) {
         margin: 0 auto
+    }
+    .team-leader-box.single-line {
+        margin: 0 auto;
     }
     .res-nav_click {
         display: block;

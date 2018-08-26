@@ -341,6 +341,7 @@ a.learn_more2 {
     line-height: 46px;
     border-radius: 3px;
     text-align: center;
+    text-decoration: none;
     font-family: 'Raleway';
     text-transform: uppercase;
     font-weight: 600;
@@ -350,7 +351,7 @@ a.learn_more2 {
 }
 
 a.learn_more2:hover {
-    background: #222222;
+    background: #053061;
 }
 
 
@@ -433,18 +434,22 @@ a.learn_more2:hover {
 /* Infographic
 -------------------------------- */
 
+#infographic-wrapper {
+    padding: 83px 0;
+}
+
 #infographic {
     /* height: 660px; */
     margin-top: 30px;
     display: block;
-    height: 650px;
-    background-position: top;
+    /* height: 650px;
+     background-position: top;
     background-image: url("../img/team/infographic.png");
     background-repeat: no-repeat;
     -moz-transition: height 2s ease;
     -webkit-transition: height 2s ease;
     -o-transition: height 2s ease;
-    transition: height 2s ease;
+    transition: height 2s ease; */
 }
 
 #infographic.fullGraph {
@@ -454,7 +459,7 @@ a.learn_more2:hover {
 #infographic img {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 100%;
 }
 
 .process-slogan {
@@ -606,14 +611,25 @@ a.contact_btn:hover {
 ---------------------------------*/
 
 #Portfolio {
-    padding: 100px 0px;
+    padding: 50px 0px;
+}
+
+#Portfolio h4 {
+    text-align: left;
+    text-transform: unset;
+}
+
+#Portfolio .column-wrapper {
+    padding: 2% 10%;
+    text-align: left;
+    color: black;
 }
 
 .Portfolio-nav {
     padding: 0;
     margin: 0 0 45px 0;
     list-style: none;
-    text-align: center;
+    text-align: left;
 }
 
 .Portfolio-nav li {
@@ -626,7 +642,7 @@ a.contact_btn:hover {
     padding: 10px 22px;
     font-size: 12px;
     line-height: 20px;
-    color: #222222;
+    color: black;
     border-radius: 4px;
     text-transform: uppercase;
     font-family: 'LatoRegular', sans-serif;
@@ -816,17 +832,23 @@ img {
 
 .logo-container {
     text-align: center;
+    width: 30%;
 }
 
 .logo-container img.sm {
     max-width: 150px;
 }
 
+.c-logo-part .container>div {
+    display: flex;
+    justify-content: space-around;
+}
+
 .c-logo-part {
     /* background: url(../img/trusted-by.png) left top; */
     background: black;
     background-repeat: repeat-x;
-    padding: 80px 0;
+    padding: 60px 0;
     margin-top: 60px;
     filter: alpha(opacity=60);
     background-size: cover;
@@ -885,6 +907,7 @@ img {
 }
 
 .team-leader-box.single-line {
+    margin-right: unset;
     margin-top: 50px;
 }
 
@@ -1472,10 +1495,10 @@ img {
 }
 
 .section-title h2 {
+    font-size: 38px;
     color: #053061;
-    font-family: RalewayBold;
-    font-size: 34px;
-    font-weight: normal;
+    font-family: 'Raleway';
+    font-weight: bold;
     letter-spacing: -1px;
     margin: 0 0 15px;
     text-align: center;
@@ -1500,7 +1523,9 @@ img {
     padding: 0;
     width: 100%;
     margin: 0 auto;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #portfolio-wrap .one-four {
@@ -1979,10 +2004,6 @@ div.mc-image {
 .column-wrapper {
     text-align: center;
     font-size: 14px;
-}
-
-#Portfolio .row .col:hover {
-    font-weight: bold;
 }
 
 .column-wrapper {
